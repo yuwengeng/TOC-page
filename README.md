@@ -34,3 +34,28 @@
 * [Hitokoto 一言](https://hitokoto.cn/)
 
 <a title="SSL" target="_blank" href="https://myssl.com/seal/detail?domain=blog.imsyy.top"><img src="https://img.shields.io/badge/MySSL-安全认证-brightgreen"></a>&nbsp;<a title="CDN" target="_blank" href="https://cdnjs.com/"><img src="https://img.shields.io/badge/CDN-Cloudflare-blue"></a>&nbsp;<a title="Copyright" target="_blank" href="https://imsyy.top/"><img src="https://img.shields.io/badge/Copyright%20%C2%A9%202020--2022-%E7%84%A1%E5%90%8D-red"></a>
+
+
+# Metafy
+
+基于metascraper 从站点抓取 OG 协议的 meta 信息；
+获取站点信息scrape metadata from websites as a services
+
+## Usage
+
+```bash
+curl https://metafy.vercel.app/api/metafy?url=$URL
+```
+
+## Tech Stack
+
+* [vercel](https://vercel.com/) - Develop. Preview. Ship. For the best frontend teams – Vercel
+* [metascraper](https://metascraper.js.org/) - metascraper, easily scrape metadata from an article on the web.
+* [typescript](https://www.typescriptlang.org/) - Typed JavaScript at Any Scale.
+* [got](https://github.com/sindresorhus/got) - 🌐 Human-friendly and powerful HTTP request library for Node.js
+* [esno](https://github.com/antfu/esno) - TypeScript / ESNext node runtime powered by esbuild
+
+## License
+
+MIT [xiaoluoboding](https://github.com/xiaoluoboding)
+
